@@ -9,7 +9,7 @@ body {
 
 #canvas {
   border: 5px solid red;
-  background-image: url("http://wallpapercave.com/wp/WC7F3TA.jpg");
+  background-image: url("../images/cartoon_background1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
