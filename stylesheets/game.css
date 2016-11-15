@@ -1,0 +1,15 @@
+body {
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 750px;
+}
+
+#canvas {
+  border: 5px solid red;
+  background-image: url("http://wallpapercave.com/wp/WC7F3TA.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
