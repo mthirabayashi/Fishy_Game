@@ -1,4 +1,11 @@
+body {
+  position: relative;
+  border: 1px solid black;
+  min-height: 700px;
+}
+
 div {
+  position: absolute;
   border: 1px solid green;
   display: flex;
   align-items: center;
@@ -8,7 +15,7 @@ div {
   width: 100%;
 }
 
-button {
+div > button {
   width: 100px;
   height: 30px;
   cursor: pointer;
@@ -19,20 +26,21 @@ button {
 button:hover {
   background-color: aqua;
 }
-
+/*
 div {
   position: absolute;
   border: 1px solid black;
   z-index: 1000;
-}
+}*/
 
 section {
   /*border: 1px solid black;*/
-  position: absolute;
+  position: fixed;
   height: 40px;
   min-width: 140px;
   font-size: 30px;
-  /*margin: 40% 45%;*/
+  margin-top: 40%;
+  margin-left: 44%;
   cursor: pointer;
   /*z-index: 100;*/
 }
