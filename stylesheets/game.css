@@ -1,10 +1,44 @@
-body {
+div {
   border: 1px solid green;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  min-height: 750px;
+  justify-content: space-around;;
+  min-height: 700px;
+  width: 100%;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background-color: aquamarine;
+  outline: none;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+div {
+  position: absolute;
+  border: 1px solid black;
+  z-index: 1000;
+}
+
+section {
+  /*border: 1px solid black;*/
+  position: absolute;
+  height: 40px;
+  min-width: 140px;
+  font-size: 30px;
+  /*margin: 40% 45%;*/
+  cursor: pointer;
+  /*z-index: 100;*/
+}
+
+section:hover {
+  color: aqua;
 }
 
 #canvas {
