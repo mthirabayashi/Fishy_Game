@@ -215,6 +215,17 @@ ul {
   /*margin-left: 0;*/
 }
 
+#reset-times {
+  background-color: white;
+  color: black;
+  list-style: none;
+  margin-left: 25px;
+}
+
+#reset-times:hover {
+  background-color: dodgerblue;
+}
+
 #canvas {
   border: 3px solid #e80000;
   background-image: url("../images/cartoon_background1.png");
