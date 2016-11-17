@@ -145,6 +145,24 @@ header li {
   margin-left: 49%;
 }
 
+#highscores {
+  position: absolute;
+  color: white;
+  margin-top: 30vh;
+  margin-left: 80%;
+  background-color: orange;
+  min-width: 175px;
+  min-height: 150px;
+}
+
+input {
+  position: absolute;
+}
+
+.submitHighscore {
+  position: absolute;
+}
+
 #canvas {
   border: 3px solid #e80000;
   background-image: url("../images/cartoon_background1.png");
