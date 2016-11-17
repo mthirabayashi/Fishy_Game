@@ -8,7 +8,7 @@ body {
   background-color: black;
 }
 
-div {
+#main {
   margin: 0;
   padding: 0;
   position: absolute;
@@ -19,6 +19,13 @@ div {
   justify-content: space-around;;
   min-height: 700px;
   width: 100%;
+  min-width: 1250px;
+}
+
+h1 {
+  font-size: 91px;
+  margin: 0;
+  padding: 10px 0 0 0;
 }
 
 button {
@@ -43,12 +50,12 @@ div {
 
 section {
   /*border: 1px solid black;*/
-  position: fixed;
+  position: absolute;
   height: 40px;
   min-width: 140px;
   font-size: 30px;
-  margin-top: 72vh;
-  margin-left: 45%;
+  /*margin-top: 72vh;
+  margin-left: 45%;*/
   cursor: pointer;
   color: #e80000;
   text-shadow: 1px 1px #000000;
@@ -58,13 +65,13 @@ section {
 
 #play, #replay {
   /*border: 1px solid black;*/
-  position: fixed;
+  position: absolute;
   height: 40px;
   font-size: 40px;
   min-width: 140px;
   font-size: 30px;
-  margin-top: 66vh;
-  margin-left: 48%;
+  margin-top: 200px;
+  margin-left: 30px;
   cursor: pointer;
   /*z-index: 100;*/
   background-color: transparent;
@@ -73,8 +80,12 @@ section {
 }
 
 #replay {
-  margin-top: 64vh;
-  margin-left: 45%;
+  /*margin-top: 64vh;*/
+  margin-left: 0;
+}
+
+#play {
+  margin-top: 100px;
 }
 
 /*#replay {
@@ -141,39 +152,67 @@ header li {
   position: absolute;
   font-size: 24px;
   color: #999;
-  margin-top: 28vh;
-  margin-left: 49%;
+  margin-top: -150px;
+  margin-left: 3px;
 }
 
 #highscores {
-  position: absolute;
+  /*display: block;*/
+  position: relative;
+  padding-left: 50px;
+  float: right;
   color: white;
-  margin-top: 30vh;
-  margin-left: 80%;
+  /*margin-top: 30vh;
+  margin-left: 80%;*/
   background-color: transparent;
-  min-width: 175px;
+  width: 175px;
+  min-height: 150px;
+}
+#game-rules {
+  /*display: block;*/
+  position: relative;
+  float: left;
+  color: white;
+  /*margin-top: 30vh;
+  margin-left: 80%;*/
+  background-color: transparent;
+  width: 175px;
   min-height: 150px;
 }
 
 input {
   position: absolute;
+  background-color: lightgrey;
+  font-size: 18px;
+  width: 80px;
+  text-align: center;
 }
 
 .submitHighscore {
   position: relative;
   /*background-color: white;*/
 }
-.submitHighscore > button{
+#inputHighscore > button {
   /*position: relative;*/
-  background-color: white;
+  background-color: darkcyan;
+  margin-left: 10px;
+}
+
+#inputHighscore > button:hover {
+  background-color: dodgerblue;
+}
+
+ul {
+  font-size: 18px;
+  padding: 0 20px;
 }
 
 #inputHighscore {
   display: flex;
   flex-direction: row;
   position: absolute;
-  margin-top: 65vh;
-  margin-left: 45%;
+  margin-top: 150px;
+  /*margin-left: 0;*/
 }
 
 #canvas {
