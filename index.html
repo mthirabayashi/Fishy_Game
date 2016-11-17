@@ -8,7 +8,7 @@
     <script type="application/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
-    <div>
+    <div id='main'>
       <header>
         <h1>Fishy</h1>
         <ul>
@@ -18,27 +18,36 @@
           </li></a>
         </ul>
       </header>
-      <canvas id='canvas' height='500' width='750'></canvas>
+      <div>
+        <ul id='game-rules'>How to Play
+          <li>Use 'w', 'a', 's', 'd' to move</li>
+          <li>Eat smaller fish to grow larger</li>
+          <li>Avoid getting eaten by the larger fish</li>
+        </ul>
+        <canvas id='canvas' height='500' width='750'></canvas>
+        <ul id='highscores'>
+          Fastest Winning Times
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <!-- <section id='instructions'>Instructions</section> -->
+      <section id='replay'>
+        Play Again
+      </section>
+      <section id='play'>
+        Start
+      </section>
+      <time id='time'></time>
+
+      <container id='inputHighscore'>
+        <input type='text'class='submitHighscore' maxlength="3" placeholder="initials"/>
+        <button class='submitHighscore'>Submit Highscore</button>
+      </container>
     </div>
-    <section id='instructions'>Instructions</section>
-    <section id='replay'>
-      Play Again
-    </section>
-    <section id='play'>
-      Start
-    </section>
-    <time id='time'></time>
-    <ul id='highscores'>
-      Fastest Winning Times
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    <container id='inputHighscore'>
-      <input type='text'class='submitHighscore'/>
-      <button class='submitHighscore'>Submit Highscore</button>
-    </container>
+
   </body>
 </html>
