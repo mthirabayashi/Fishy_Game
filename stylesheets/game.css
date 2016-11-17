@@ -160,7 +160,20 @@ input {
 }
 
 .submitHighscore {
+  position: relative;
+  /*background-color: white;*/
+}
+.submitHighscore > button{
+  /*position: relative;*/
+  background-color: white;
+}
+
+#inputHighscore {
+  display: flex;
+  flex-direction: row;
   position: absolute;
+  margin-top: 65vh;
+  margin-left: 45%;
 }
 
 #canvas {
