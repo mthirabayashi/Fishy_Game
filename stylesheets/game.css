@@ -137,6 +137,14 @@ header li {
   background-size: contain;
 }
 
+#time {
+  position: absolute;
+  font-size: 24px;
+  color: #999;
+  margin-top: 28vh;
+  margin-left: 49%;
+}
+
 #canvas {
   border: 3px solid #e80000;
   background-image: url("../images/cartoon_background1.png");
