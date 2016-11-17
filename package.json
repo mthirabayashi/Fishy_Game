@@ -1,0 +1,33 @@
+{
+  "name": "fishy",
+  "version": "1.0.0",
+  "description": "### Background",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "createjs-easeljs": "^0.8.2",
+    "jquery": "^3.1.1",
+    "js-cookie": "^2.1.3",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthirabayashi/Fishy_Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mthirabayashi/Fishy_Game/issues"
+  },
+  "homepage": "https://github.com/mthirabayashi/Fishy_Game#readme"
+}
