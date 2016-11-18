@@ -41,13 +41,13 @@ Within the Fishy Game, users are able to:
 - [x] View current score
 
 
-##### Fish Movement
+#### Fish Movement
 Fish are rendered using canvas and EaselJS.  Fish are randomly generated with various sizes, starting positions, and velocity. User controls allow for multiple inputs.
 
-##### Sound
-Game sounds are implemented using `howler.js`.  Background noise and collision sound effects can be toggled by the user by clicking on the speaker/mute icon.  
+#### Sound
+Game sounds are implemented using `howler.js`.  Background noise and collision sound effects can be toggled by the user by clicking on the speaker/mute icon.  Sound settings are saved locally using browser cookies so even upon reloading the page, previous sound settings will remain.
 
-##### High Scores
+#### High Scores
 User high scores are stored in the browser's cookies using `js-cookie`.  Clicking the 'reset fastest winning times' button clears the cookies and resets the user's personal high scores.
 
 
