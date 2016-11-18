@@ -1,3 +1,7 @@
+* {
+  font-family: monospace;
+}
+
 body {
   position: relative;
   /*border: 1px solid black;*/
@@ -185,7 +189,7 @@ input {
   position: absolute;
   background-color: lightgrey;
   font-size: 18px;
-  width: 80px;
+  width: 90px;
   text-align: center;
 }
 
@@ -204,8 +208,12 @@ input {
 }
 
 ul {
-  font-size: 18px;
+  font-size: 20px;
   padding: 0 20px;
+}
+
+li {
+  font-size: 18px;
 }
 
 #inputHighscore {
@@ -225,6 +233,40 @@ ul {
 
 #reset-times:hover {
   background-color: dodgerblue;
+}
+
+#mute-icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/Mute_Iconbefore.svg');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 100;
+  margin-top: 300px;
+  margin-left: 370px;
+}
+#speaker-icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/Speaker_Icon.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 100;
+  margin-top: 300px;
+  margin-left: 370px;
+}
+
+#mute-icon:hover {
+  width: 45px;
+  height: 45px;
+}
+#speaker-icon:hover {
+  width: 45px;
+  height: 45px;
 }
 
 #canvas {
