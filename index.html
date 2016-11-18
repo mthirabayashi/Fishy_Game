@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Fishy</title>
     <link rel="stylesheet" type="text/css" href="./stylesheets/game.css">
+    <script src="keymaster.js"></script>
     <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
   </head>
@@ -20,7 +21,7 @@
       </header>
       <div>
         <ul id='game-rules'>How to Play
-          <li>Use 'w', 'a', 's', 'd' to move</li>
+          <li>Use WASD or arrow keys to move</li>
           <li>Eat smaller fish to grow larger</li>
           <li>Avoid getting eaten by the larger fish</li>
         </ul>
@@ -42,7 +43,7 @@
       <section id='play'>
         Start
       </section>
-      <time id='time'></time>
+      <time id='time'>00:00</time>
 
       <container id='inputHighscore'>
         <input type='text'class='submitHighscore' maxlength="3" placeholder="initials"/>

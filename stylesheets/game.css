@@ -86,6 +86,7 @@ section {
 
 #play {
   margin-top: 100px;
+  margin-left: 40px;
 }
 
 /*#replay {
@@ -153,7 +154,7 @@ header li {
   font-size: 24px;
   color: #999;
   margin-top: -150px;
-  margin-left: 3px;
+  margin-left: 2px;
 }
 
 #highscores {
@@ -216,7 +217,7 @@ ul {
 }
 
 #reset-times {
-  background-color: white;
+  background-color: lightgrey;
   color: black;
   list-style: none;
   margin-left: 25px;
