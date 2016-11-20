@@ -1,5 +1,7 @@
 ## Fishy Game
 
+[Live Link](https://mthirabayashi.github.io/Fishy_Game/)
+
 ![In_Game](./docs/In_Game.png "In Game")
 
 ### Background
@@ -17,18 +19,6 @@ This project was implemented using the following technologies:
 - `howler.js` for game sounds
 - `js-cookie` to store user high scores locally in their browser
 - Webpack to bundle and serve up the various scripts.
-
-In addition to the webpack entry file, there will be four scripts involved in this project:
-
-`fishy.js`: handles the initial start page and generate a new instance of the game.
-
-`game.js`: handles the updating and rendering of the canvas elements.
-
-`fish.js`: handles the creation and logic of the fish elements of the game.
-
-`hero.js`: handles the creation and logic of the hero(the fish that the user will control) fish element of the game.
-
-`util.js`: handles the reusable logic of the moving elements of the game.
 
 
 
@@ -53,7 +43,7 @@ User high scores are stored in the browser's cookies using `js-cookie`.  Clickin
 
 ### Bonus features
 
-There are some additional features that could be added if extra time:
+There are some additional features that could be added in the near future:
 
 - [x] Add high scores stored locally in browser cookies
 - [ ] Add options for different game difficulties
