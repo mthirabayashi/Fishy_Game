@@ -72,25 +72,28 @@ section {
   position: absolute;
   height: 40px;
   font-size: 40px;
-  min-width: 140px;
   font-size: 30px;
   margin-top: 200px;
   margin-left: 30px;
   cursor: pointer;
   /*z-index: 100;*/
-  background-color: transparent;
+  background-color: black;
+  border-radius: 5px;
   color: #e80000;
   text-shadow: 1px 1px #000000;
+  padding: 1px 5px;
 }
 
 #replay {
   /*margin-top: 64vh;*/
   margin-left: 0;
+  min-width: 140px;
 }
 
 #play {
+  min-width: 10px;
   margin-top: 100px;
-  margin-left: 30px;
+  margin-left: 0;
 }
 
 /*#replay {
@@ -192,6 +195,7 @@ header li {
   /*margin-top: 30vh;
   margin-left: 80%;*/
   margin: 25px;
+  padding-left: 35px;
   background-color: lightgray;
   border-radius: 25px;
   width: 175px;
