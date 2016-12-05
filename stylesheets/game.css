@@ -23,13 +23,13 @@ body {
   justify-content: space-around;;
   min-height: 700px;
   width: 100%;
-  min-width: 1250px;
+  min-width: 1350px;
 }
 
 h1 {
-  font-size: 91px;
+  font-size: 72px;
   margin: 0;
-  padding: 10px 0 0 0;
+  padding: 10px 0;
 }
 
 button {
@@ -125,6 +125,7 @@ header > ul {
   margin: 0 auto;
   padding: 0;
   width: 100%;
+  height: 50px;
   background-color: lightgrey;
   justify-content: center;
 }
@@ -132,12 +133,13 @@ header > ul {
 header li {
   list-style: none;
   cursor: pointer;
+  padding: 5px;
 }
 
 #github {
   background-image: url("https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png");
   padding-right: 2%;
-  border-right: 1px solid black;
+  /*border-right: 1px solid black;*/
 }
 
 #linkedin {
@@ -147,10 +149,16 @@ header li {
 }
 
 #github, #linkedin {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.divider {
+  width: 1px;
+  background-color: black;
 }
 
 #time {
@@ -166,21 +174,26 @@ header li {
   position: relative;
   padding-left: 50px;
   float: right;
-  color: white;
+  color: black;
   /*margin-top: 30vh;
   margin-left: 80%;*/
-  background-color: transparent;
+  background-color: lightgray;
   width: 175px;
   min-height: 150px;
+  list-style: none;
+  margin: 25px;
+  border-radius: 25px;
 }
 #game-rules {
   /*display: block;*/
   position: relative;
   float: left;
-  color: white;
+  color: black;
   /*margin-top: 30vh;
   margin-left: 80%;*/
-  background-color: transparent;
+  margin: 25px;
+  background-color: lightgray;
+  border-radius: 25px;
   width: 175px;
   min-height: 150px;
 }
@@ -225,10 +238,13 @@ li {
 }
 
 #reset-times {
-  background-color: lightgrey;
+  background-color: darkcyan;
   color: black;
   list-style: none;
   margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  padding-bottom: 0;
   border-radius: 10px;
 }
 
