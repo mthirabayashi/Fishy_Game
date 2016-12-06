@@ -185,7 +185,7 @@ header li {
   min-height: 150px;
   list-style: none;
   margin: 25px;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 #game-rules {
   /*display: block;*/
@@ -197,7 +197,7 @@ header li {
   margin: 25px;
   padding-left: 35px;
   background-color: lightgray;
-  border-radius: 25px;
+  border-radius: 15px;
   width: 175px;
   min-height: 150px;
 }
@@ -249,7 +249,7 @@ li {
   margin-top: 25px;
   margin-bottom: 0;
   padding-bottom: 0;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 #reset-times:hover {
