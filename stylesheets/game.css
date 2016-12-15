@@ -178,6 +178,8 @@ header li {
   padding-left: 50px;
   float: right;
   color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
   /*margin-top: 30vh;
   margin-left: 80%;*/
   background-color: lightgray;
@@ -196,6 +198,8 @@ header li {
   margin-left: 80%;*/
   margin: 25px;
   padding-left: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: lightgray;
   border-radius: 15px;
   width: 175px;
@@ -295,4 +299,10 @@ li {
   background-image: url("../images/cartoon_background1.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#game-rules-move-img {
+  background-color: transparent;
+  width: 175px;
+  border-radius: 5px;
 }
